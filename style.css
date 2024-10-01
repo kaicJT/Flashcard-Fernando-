@@ -1,51 +1,65 @@
-body {
-    background-color: bisque;
-    font-family: Bai Jamjuree;
-}
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
 
-footer {
-    background-color: black;
-    color: white;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 2rem;
-}
+<body>
+    <main>
 
+        <section id="container">
 
-footer p {
-    text-align: center;
-    font-size: 0.6rem;
-    margin-top: 0.5rem;
-}
+            <article class="cartao">
 
+                <div class="cartao__conteudo">
 
-#container {
+                    <h3>Programação</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        O que é JavaScript?
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        O JavaScript é uma linguagem de programação
+                    </div>
+                </div>
+            </article>
 
-     display: flex;
-}
+            <article class="cartao">
 
-.cartao {
-    background-image: url(https://th.bing.com/th?id=OIF.fMbDTZb4MtKYoTa%2b4VjH6w&rs=1&pid=ImgDetMain);
-    background-color: aquamarine;
-  margin: 1rem 1rem;
+            <div class="cartao__conteudo">
 
-  height: 20rem;
-  flex-grow: 1;
-  flex-basis: calc(33% - 6rem);
-}
+                <h3>Programação</h3>
+                <div class="cartao__conteudo__pergunta">
+                    O que é CSS?
+                </div>
+                <div class="cartao__conteudo__resposta">
+                    O CSS é uma linguagem de estilização
+                </div>
+            </div>
+            </article>
+            <article class="cartao">
 
-.cartao__conteudo {
-    text-align: center;
-    background-color: aliceblue;
-}
-.cartao__conteudo h3{
-   background-color: antiquewhite;
-   text-align: left;
-   padding: 0.5rem;
-   position: absolute;
-   margin: 0.6rem;
-   border-radius: 0.6rem;
-   font-size: 1vw; 
-}
+            <div class="cartao__conteudo">
+
+                <h3>Geografia</h3>
+                <div class="cartao__conteudo__pergunta">
+                    Qual a capital do Canadá?
+                </div>
+                <div class="cartao__conteudo__resposta">
+                    Ottawa
+                </div>
+            </div>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        Projeto desenvolvido por Gusttavo Lima no Buteco in Prision, sem fins lucrativos
+    </footer>
+</body>
+
+</html>
